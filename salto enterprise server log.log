@@ -1,0 +1,420 @@
+Thread started: Log
+09/05/25 17:47:23.555 (9796.1) Controller: ===============================================================
+5/9/2025 5:47:23 PM +04:00
+appServer  v4.8.6.0
+CommandLine: "C:\Program Files\Salto Enterprise\Bin\appServer.exe" 
+CurrentDirectory: C:\Program Files\Salto Enterprise\Bin
+Process Id: 9796
+WIN-GMRTI8NMQK4\Administrator
+Microsoft Windows NT 6.2.9200.0 (en-US)
+DnsName: WIN-GMRTI8NMQK4
+IPAdrs: 10.165.1.20
+09/05/25 17:47:23.555 (9796.1) Controller: Start
+09/05/25 17:47:23.555 (9796.1) Controller: Args=C:\Program Files\Salto Enterprise\Bin\appServer.exe
+09/05/25 17:47:23.555 (9796.1) Controller: Path=C:\Program Files\Salto Enterprise\Configurations\Enterprise
+09/05/25 17:47:26.930 (9796.1) Controller: License 50-00-00-00 g:1 s:0 c:0
+09/05/25 17:47:26.930 (9796.1) Controller: Start ...
+09/05/25 17:47:29.571 (9796.1) Controller: StartThreadProc
+09/05/25 17:47:29.793 (9796.8) Controller: ThreadProc start
+09/05/25 17:47:29.793 (9796.8) Controller: Server state: Initializing 
+09/05/25 17:47:29.793 (9796.8) DA: CheckInitial ...
+09/05/25 17:47:30.236 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.AreaRow] found 0 doublons
+09/05/25 17:47:30.252 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.GroupRow] found 0 doublons
+09/05/25 17:47:30.252 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.ProtocolRow] found 0 doublons
+09/05/25 17:47:30.268 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.InstructionRow] found 0 doublons
+09/05/25 17:47:30.299 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.ProfileRow] found 0 doublons
+09/05/25 17:47:30.330 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.UserRow] found 0 doublons
+09/05/25 17:47:30.346 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.TextReportRow] found 0 doublons
+09/05/25 17:47:30.362 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.LinkRow] found 0 doublons
+09/05/25 17:47:30.377 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.HolidayRow] found 0 doublons
+09/05/25 17:47:30.393 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.FileInfoRow] found 0 doublons
+09/05/25 17:47:30.440 (9796.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.VariableRow] found 0 doublons
+09/05/25 17:47:30.612 (9796.8) DA: CheckInitial end.
+09/05/25 17:47:31.197 (9796.8) Controller: Diagnostics enable
+09/05/25 17:47:52.134 (9796.8) AutoUpdate: CreateFilesList: 773 files in 20.9s
+09/05/25 17:47:52.212 (9796.8) Controller: Listening http://0.0.0.0/
+09/05/25 17:47:52.555 (9796.8) Controller: Listening http://0.0.0.0/AppVisionService.svc
+09/05/25 17:47:52.555 (9796.8) Controller: Listening http://0.0.0.0/AppVisionDataService.svc
+09/05/25 17:47:52.571 (9796.8) Controller: Listening http://0.0.0.0/AppVisionHistoDataService.svc
+09/05/25 17:47:52.571 (9796.8) Controller: Listening http://0.0.0.0/AppControlDataService.svc
+09/05/25 17:47:52.571 (9796.8) Controller: Listening http://0.0.0.0/AppVisionMapService
+09/05/25 17:47:52.587 (9796.8) Controller: Discovery service: register 10.165.1.20
+09/05/25 17:47:52.587 (9796.8) Controller: StartAuthentification: 0
+09/05/25 17:47:52.587 (9796.21) Prysm.AppVision.Server.Threads.ThreadClients start thread ...
+09/05/25 17:47:52.587 (9796.22) Prysm.AppVision.Server.Threads.ThreadDelayWS start thread ...
+09/05/25 17:47:53.602 (9796.8) Controller: Check database ...
+09/05/25 17:47:54.102 (9796.8) Controller: Load database ...
+09/05/25 17:47:54.368 (9796.8) Controller: PasswordVault: PasswordVault.key_notset
+09/05/25 17:47:54.431 (9796.8) Controller: 21 variables
+09/05/25 17:47:54.431 (9796.8) Controller: 7 alarms
+09/05/25 17:47:54.462 (9796.8) Controller: Building client project...
+09/05/25 17:47:54.462 (9796.23) ThreadStore: start thread ...
+09/05/25 17:48:01.165 (9796.8) Controller: Client project complete
+09/05/25 17:48:01.180 (9796.8) Controller: Server state: Deactivated 
+09/05/25 17:48:01.196 (9796.8) Controller: CpuCounter=0 RamAvailable=59300
+09/05/25 17:48:22.779 (9796.1) Controller: Start supervision ...
+09/05/25 17:48:23.477 (9796.8) Controller: Start supervision
+09/05/25 17:48:23.477 (9796.8) Controller: Server state: Initializing 
+09/05/25 17:48:23.477 (9796.8) Controller: Check database ...
+09/05/25 17:48:23.488 (9796.8) Controller: Load database ...
+09/05/25 17:48:23.488 (9796.8) Controller: PasswordVault: PasswordVault.key_notset
+09/05/25 17:48:23.504 (9796.8) Controller: 21 variables
+09/05/25 17:48:23.504 (9796.8) Controller: 7 alarms
+09/05/25 17:48:23.540 (9796.8) Controller: current alarms=2
+09/05/25 17:48:23.552 (9796.8) Controller: Load script ...
+09/05/25 17:48:23.899 (9796.8) Controller: Script Prysm.AppVision.Server.ScriptServerInternal
+09/05/25 17:48:23.899 (9796.8) Controller: Script Prysm.AppVision.Server.Maintenance
+09/05/25 17:48:23.899 (9796.8) Controller: Script Prysm.AppVision.Server.ScriptServerScriptServerGlobal
+09/05/25 17:48:23.899 (9796.8) Controller: Script Prysm.AppVision.Server.ServerHelper
+09/05/25 17:48:23.899 (9796.8) Controller: Load script end.
+09/05/25 17:48:23.899 (9796.8) Controller: Server state: Activated 
+09/05/25 17:48:23.899 (9796.8) Controller: AddEvent ServerStarting Startup SALTO Enterprise
+09/05/25 17:48:23.899 (9796.7) Prysm.AppVision.Server.ThreadCommand start thread ...
+09/05/25 17:48:23.899 (9796.18) Prysm.AppVision.Server.Threads.ThreadCommandAppControl start thread ...
+09/05/25 17:48:23.899 (9796.17) Prysm.AppVision.Server.ThreadMailing start thread ...
+09/05/25 17:48:23.899 (9796.19) au start thread ...
+09/05/25 17:48:23.899 (9796.31) ThreadScenarios: start thread ...
+09/05/25 17:48:24.914 (9796.8) Controller: AddEvent ServerStarted Started SALTO Enterprise
+09/05/25 17:48:25.930 (9796.8) Controller: StartProtocol SHIP
+09/05/25 17:48:25.930 (9796.8) Controller: AddEvent ProtocolStart Startup 
+09/05/25 17:48:25.930 (9796.8) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 17:48:26.149 (9796.20) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 17:48:26.149 (9796.20) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 17:48:26.165 (9796.34) Controller: AddEvent ProtocolLogin Login 
+09/05/25 17:48:26.227 (9796.34) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:48:26.227 (9796.34) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:48:26.259 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 17:48:26.759 (9796.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 17:48:54.093 (9796.39) Controller: CreateClient AppVision Configurator host=WIN-GMRTI8NMQK4 process=appConfig.exe
+09/05/25 17:48:54.094 (9796.39) Controller: AddEvent ClientOpen Connection AppVision Configurator
+09/05/25 17:48:54.285 (9796.35) Controller: AddEvent UserLogin Login Admin
+09/05/25 17:48:54.416 (9796.35) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:48:54.419 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 17:48:58.771 (9796.20) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:49:03.055 (9796.20) Controller: AddEvent ServerInfo RemoveFilterNotifications 
+09/05/25 17:49:03.118 (9796.40) Controller: AddEvent ServerInfo Notification refresh 
+09/05/25 17:49:04.753 (9796.20) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:49:09.162 (9796.22) Controller: StopProtocol $P.SHIP
+09/05/25 17:49:09.162 (9796.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 17:49:09.168 (9796.20) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 17:49:09.173 (9796.20) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 17:49:09.224 (9796.20) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=6d591629-feea-4574-8e47-4b5f06d4129f reason=
+09/05/25 17:49:09.224 (9796.20) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 17:49:18.540 (9796.20) Controller: AddEvent ServerInfo RemoveFilterNotifications 
+09/05/25 17:49:18.587 (9796.41) Controller: AddEvent ServerInfo Notification refresh 
+09/05/25 17:49:19.556 (9796.8) Controller: Modif: ModifRow {Id=118 Type=2 Table=Protocols Desc= SourceId=1/0/0}
+09/05/25 17:49:19.556 (9796.8) Controller:  delete protocol: 1
+09/05/25 17:49:26.290 (9796.41) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:49:29.665 (9796.8) Controller: Modif: ModifRow {Id=119 Type=2 Table=Variables Desc=@Salto01 SourceId=7990/0/0}
+09/05/25 17:49:33.555 (9796.41) Controller: CreateClient AppWizardSalto host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe
+09/05/25 17:49:33.556 (9796.41) Controller: AddEvent ClientOpen Connection AppWizardSalto
+09/05/25 17:49:33.636 (9796.33) Controller: AddEvent UserLogin Login Admin
+09/05/25 17:55:52.910 (9796.35) Controller: AddEvent UserLogout Logout Admin
+09/05/25 17:55:52.973 (9796.35) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe sid=d925caab-e0ea-4cbc-b0dc-d91ff0a36e69 reason=
+09/05/25 17:55:52.973 (9796.35) Controller: AddEvent ClientClose Disconnection AppWizardSalto
+09/05/25 17:55:53.510 (9796.8) Controller: Modif: ModifRow {Id=120 Type=0 Table=Protocols Desc= SourceId=1/0/0}
+09/05/25 17:55:53.512 (9796.8) Controller:  modif protocol: SHIP
+09/05/25 17:55:53.512 (9796.8) Controller: Modif: ModifRow {Id=121 Type=0 Table=Variables Desc=@Salto01 SourceId=7990/0/0}
+09/05/25 17:55:53.526 (9796.8) Controller:  modif var: Salto01
+09/05/25 17:55:53.526 (9796.8) Controller: Modif: ModifRow {Id=122 Type=0 Table=Variables Desc=Salto Space connection SourceId=7991/0/0}
+09/05/25 17:55:53.526 (9796.8) Controller:  modif var: Salto01.Comm
+09/05/25 17:55:53.526 (9796.8) Controller: Modif: ModifRow {Id=123 Type=0 Table=Variables Desc=Doors SourceId=7992/0/0}
+09/05/25 17:55:53.526 (9796.8) Controller:  modif var: Salto01.Doors
+09/05/25 17:55:53.526 (9796.8) Controller: Modif: ModifRow {Id=124 Type=0 Table=Variables Desc=C-G-211 JCI Office - JCI Office IT Team GF SourceId=7993/0/0}
+09/05/25 17:55:53.526 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice
+09/05/25 17:55:53.542 (9796.8) Controller: Modif: ModifRow {Id=125 Type=0 Table=Variables Desc=Command SourceId=7994/0/0}
+09/05/25 17:55:53.542 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice.Cmd
+09/05/25 17:55:53.544 (9796.8) Controller: Modif: ModifRow {Id=126 Type=0 Table=Variables Desc=Comm SourceId=7995/0/0}
+09/05/25 17:55:53.544 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice.Comm
+09/05/25 17:55:53.544 (9796.8) Controller: Modif: ModifRow {Id=127 Type=0 Table=Variables Desc=Event SourceId=7996/0/0}
+09/05/25 17:55:53.544 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice.Event
+09/05/25 17:55:53.544 (9796.8) Controller: Modif: ModifRow {Id=128 Type=0 Table=Variables Desc=Reader SourceId=7997/0/0}
+09/05/25 17:55:53.544 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice.Reader
+09/05/25 17:55:53.544 (9796.8) Controller: Modif: ModifRow {Id=129 Type=0 Table=Variables Desc=Status SourceId=7998/0/0}
+09/05/25 17:55:53.544 (9796.8) Controller:  modif var: Salto01.Doors.CG211JCIOffice.Status
+09/05/25 17:55:53.544 (9796.8) Controller: Modif: ModifRow {Id=130 Type=0 Table=Variables Desc=Internal use. Do not edit SourceId=7999/0/0}
+09/05/25 17:55:53.544 (9796.8) Controller:  modif var: Salto01.LastAuditTrailId
+09/05/25 17:55:53.544 (9796.8) Controller: Reload script ...
+09/05/25 17:55:53.872 (9796.8) Controller: Script Prysm.AppVision.Server.ScriptServerInternal
+09/05/25 17:55:53.872 (9796.8) Controller: Script Prysm.AppVision.Server.Maintenance
+09/05/25 17:55:53.872 (9796.8) Controller: Script Prysm.AppVision.Server.ScriptServerScriptServerGlobal
+09/05/25 17:55:53.872 (9796.8) Controller: Script Prysm.AppVision.Server.ServerHelper
+09/05/25 17:55:53.887 (9796.8) Controller: Load script end.
+09/05/25 17:55:55.512 (9796.41) Controller: AddEvent ServerInfo RemoveFilterNotifications 
+09/05/25 17:55:55.573 (9796.41) Controller: AddEvent ServerInfo Notification refresh 
+09/05/25 17:55:56.176 (9796.41) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:55:56.621 (9796.41) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:56:02.234 (9796.22) Controller: StartProtocol $P.SHIP
+09/05/25 17:56:02.234 (9796.22) Controller: AddEvent ProtocolStartByUser Startup 
+09/05/25 17:56:02.236 (9796.22) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 17:56:02.423 (9796.41) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 17:56:02.423 (9796.41) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 17:56:02.450 (9796.38) Controller: AddEvent ProtocolLogin Login 
+09/05/25 17:56:02.486 (9796.38) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:56:02.486 (9796.38) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:56:02.518 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 17:56:02.644 (9796.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 17:56:46.829 (9796.41) Controller: CreateClient AppVision Client host=WIN-GMRTI8NMQK4 process=appclient.exe
+09/05/25 17:56:46.829 (9796.41) Controller: AddEvent ClientOpen Connection AppVision Client
+09/05/25 17:56:47.735 (9796.34) Controller: InvokeMethod(ResourcesPath, )
+09/05/25 17:56:47.735 (9796.34) Controller: AddEvent ServerInvokeMethod ServerInvokeMethod ResourcesPath 
+09/05/25 17:56:47.872 (9796.34) Controller: AddEvent UserLogin Login Admin
+09/05/25 17:56:48.275 (9796.34) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 17:56:48.277 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 17:56:58.218 (9796.40) Controller: InvokeMethod(GetSynoptics, )
+09/05/25 17:56:58.218 (9796.40) Controller: AddEvent ServerInvokeMethod ServerInvokeMethod GetSynoptics 
+09/05/25 17:56:58.219 (9796.7) Controller: AddEvent None Main.env Environement actuel
+09/05/25 17:56:58.219 (9796.34) Controller: InvokeMethod(SelectSpaceInformations, )
+09/05/25 17:56:58.219 (9796.34) Controller: AddEvent ServerInvokeMethod ServerInvokeMethod SelectSpaceInformations 
+09/05/25 17:56:58.220 (9796.34) Controller: InvokeMethod(ConfigPath, )
+09/05/25 17:56:58.220 (9796.34) Controller: AddEvent ServerInvokeMethod ServerInvokeMethod ConfigPath 
+09/05/25 17:56:58.224 (9796.7) Controller: AddEvent None DB Connexion Space DB connexion isn't active => Config.Space => parameters => active = 0
+09/05/25 17:56:58.225 (9796.34) Controller: InvokeMethod(SelectSpaceUsers, )
+09/05/25 17:56:58.225 (9796.34) Controller: AddEvent ServerInvokeMethod ServerInvokeMethod SelectSpaceUsers 
+09/05/25 17:56:58.228 (9796.7) Controller: AddEvent None DB Connexion Space DB connexion isn't active => Config.Space => parameters => active = 0
+09/05/25 17:57:05.982 (9796.11) AutoUpdate: CreateFilesList: 773 files in 0.5s
+09/05/25 18:03:05.874 (9796.8) Controller: CpuCounter=0.000682804 RamAvailable=58910
+09/05/25 18:07:11.125 (9796.8) Controller: Modif: ModifRow {Id=131 Type=1 Table=Protocols Desc= SourceId=1/0/0}
+09/05/25 18:07:11.126 (9796.8) Controller:  modif protocol: SHIP
+09/05/25 18:07:11.922 (9796.22) Controller: StopProtocol $P.SHIP
+09/05/25 18:07:11.922 (9796.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 18:07:11.928 (9796.29) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 18:07:11.945 (9796.29) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 18:07:11.997 (9796.29) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=3441e79f-8737-423d-8b7d-319dbae95b30 reason=
+09/05/25 18:07:11.997 (9796.29) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 18:07:21.590 (9796.22) Controller: StartProtocol $P.SHIP
+09/05/25 18:07:21.590 (9796.22) Controller: AddEvent ProtocolStartByUser Startup 
+09/05/25 18:07:21.592 (9796.22) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 18:07:21.787 (9796.38) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 18:07:21.788 (9796.38) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 18:07:21.808 (9796.29) Controller: AddEvent ProtocolLogin Login 
+09/05/25 18:07:21.850 (9796.29) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:07:21.851 (9796.29) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:07:21.890 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 18:07:22.006 (9796.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 18:08:47.347 (9796.38) Controller: AddEvent ServerInfo RemoveFilterNotifications 
+09/05/25 18:08:47.397 (9796.16) Controller: AddEvent ServerInfo Notification refresh 
+09/05/25 18:18:06.803 (9796.8) Controller: CpuCounter=0.004903157 RamAvailable=58778
+09/05/25 18:19:03.749 (9796.25) Controller: AddEvent UserAckAlarm Acknowledge Doors/C-G-211 JCI Office - JCI Office IT Team GF/Comm
+09/05/25 18:19:03.749 (9796.16) Controller: AddEvent UserAckAlarm Acknowledge Salto Space connection
+09/05/25 18:33:07.719 (9796.8) Controller: CpuCounter=0.009123583 RamAvailable=58447
+09/05/25 18:48:08.672 (9796.8) Controller: CpuCounter=0.01542989 RamAvailable=58296
+09/05/25 18:48:46.947 (9796.25) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:48:53.360 (9796.22) Controller: StopProtocol $P.SHIP
+09/05/25 18:48:53.361 (9796.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 18:48:53.369 (9796.25) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 18:48:53.392 (9796.25) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 18:48:53.443 (9796.25) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=2f1820e4-1a75-462b-898e-fdfbc3e8b800 reason=
+09/05/25 18:48:53.443 (9796.25) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 18:49:10.743 (9796.8) Controller: Modif: ModifRow {Id=132 Type=1 Table=Protocols Desc= SourceId=1/0/0}
+09/05/25 18:49:10.744 (9796.8) Controller:  modif protocol: SHIP
+09/05/25 18:50:07.349 (9796.22) Controller: StartProtocol $P.SHIP
+09/05/25 18:50:07.349 (9796.22) Controller: AddEvent ProtocolStartByUser Startup 
+09/05/25 18:50:07.351 (9796.22) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 18:50:07.553 (9796.29) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 18:50:07.555 (9796.29) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 18:50:07.572 (9796.34) Controller: AddEvent ProtocolLogin Login 
+09/05/25 18:50:07.619 (9796.39) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:50:07.620 (9796.39) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:50:07.659 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 18:50:07.776 (9796.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 18:52:31.387 (9796.22) Controller: StopProtocol $P.SHIP
+09/05/25 18:52:31.387 (9796.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 18:52:31.393 (9796.34) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 18:52:31.408 (9796.34) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 18:52:31.460 (9796.34) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=3d3a4cf5-ac1f-4807-b9aa-a823c7dc54ab reason=
+09/05/25 18:52:31.460 (9796.34) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 18:53:00.134 (9796.35) Controller: CreateClient AppWizardSalto host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe
+09/05/25 18:53:00.135 (9796.35) Controller: AddEvent ClientOpen Connection AppWizardSalto
+09/05/25 18:53:00.229 (9796.39) Controller: AddEvent UserLogin Login Admin
+09/05/25 18:57:11.916 (9796.39) Controller: AddEvent UserLogout Logout Admin
+09/05/25 18:57:11.967 (9796.39) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe sid=197a0057-1a77-413a-a5f0-35a88ca73136 reason=
+09/05/25 18:57:11.967 (9796.39) Controller: AddEvent ClientClose Disconnection AppWizardSalto
+09/05/25 18:57:12.462 (9796.39) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:57:16.079 (9796.22) Controller: StartProtocol $P.SHIP
+09/05/25 18:57:16.079 (9796.22) Controller: AddEvent ProtocolStartByUser Startup 
+09/05/25 18:57:16.081 (9796.22) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 18:57:16.275 (9796.35) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 18:57:16.276 (9796.35) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 18:57:16.293 (9796.29) Controller: AddEvent ProtocolLogin Login 
+09/05/25 18:57:16.339 (9796.29) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:57:16.340 (9796.29) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 18:57:16.379 (9796.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 18:57:16.500 (9796.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 18:57:19.106 (9796.22) Controller: StopProtocol $P.SHIP
+09/05/25 18:57:19.106 (9796.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 18:57:19.113 (9796.39) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 18:57:19.158 (9796.39) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 18:57:19.209 (9796.39) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=25d93326-09f8-4df6-b0e8-91684ae65424 reason=
+09/05/25 18:57:19.209 (9796.39) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 18:57:21.687 (9796.35) Controller: CreateClient AppWizardSalto host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe
+09/05/25 18:57:21.687 (9796.35) Controller: AddEvent ClientOpen Connection AppWizardSalto
+09/05/25 18:57:21.782 (9796.39) Controller: AddEvent UserLogin Login Admin
+09/05/25 19:03:09.609 (9796.8) Controller: CpuCounter=0.08387481 RamAvailable=56352
+09/05/25 19:03:33.543 (9796.20) Controller: AddEvent UserLogout Logout Admin
+09/05/25 19:03:33.595 (9796.20) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=AppWizardSalto.exe sid=9643838a-87a0-4a37-ac6d-52540b00f635 reason=
+09/05/25 19:03:33.595 (9796.20) Controller: AddEvent ClientClose Disconnection AppWizardSalto
+09/05/25 19:03:36.811 (9796.35) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:03:37.642 (9796.8) Controller: Modif: ModifRow {Id=133 Type=0 Table=Variables Desc=JCI TEST DOORS OFC SourceId=8000/0/0}
+09/05/25 19:03:37.644 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC
+09/05/25 19:03:37.646 (9796.8) Controller: Modif: ModifRow {Id=134 Type=0 Table=Variables Desc=Command SourceId=8001/0/0}
+09/05/25 19:03:37.648 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC.Cmd
+09/05/25 19:03:37.649 (9796.8) Controller: Modif: ModifRow {Id=135 Type=0 Table=Variables Desc=Comm SourceId=8002/0/0}
+09/05/25 19:03:37.650 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC.Comm
+09/05/25 19:03:37.651 (9796.8) Controller: Modif: ModifRow {Id=136 Type=0 Table=Variables Desc=Event SourceId=8003/0/0}
+09/05/25 19:03:37.654 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC.Event
+09/05/25 19:03:37.655 (9796.8) Controller: Modif: ModifRow {Id=137 Type=0 Table=Variables Desc=Reader SourceId=8004/0/0}
+09/05/25 19:03:37.656 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC.Reader
+09/05/25 19:03:37.657 (9796.8) Controller: Modif: ModifRow {Id=138 Type=0 Table=Variables Desc=Status SourceId=8005/0/0}
+09/05/25 19:03:37.658 (9796.8) Controller:  modif var: Salto01.Doors.JCITESTDOORSOFC.Status
+09/05/25 19:18:10.551 (9796.8) Controller: CpuCounter=0.01016596 RamAvailable=58462
+09/05/25 19:33:11.471 (9796.8) Controller: CpuCounter=0.005353496 RamAvailable=58476
+09/05/25 19:48:12.388 (9796.8) Controller: CpuCounter=0.005553003 RamAvailable=58476
+09/05/25 19:48:42.420 (9796.24) Controller: AddEvent ServerInfo End License not available
+09/05/25 19:48:42.420 (9796.24) Controller: Stop Demo 
+09/05/25 19:48:42.421 (9796.24) SystemProcessor.UpdateState License service True License not available Demonstration
+09/05/25 19:48:42.421 (9796.24) Controller: AddEvent ServerInfo Default License service
+09/05/25 19:48:43.425 (9796.8) Controller: Stop supervision
+09/05/25 19:48:43.425 (9796.8) Controller: Wait protocols stopped...
+09/05/25 19:48:43.425 (9796.8) Controller:  protocols stopped: True
+09/05/25 19:48:43.425 (9796.8) Controller: AddEvent ServerStop Stop SALTO Enterprise
+09/05/25 19:48:43.425 (9796.8) Controller: Server state: Deactivated License not available Demonstration
+09/05/25 19:48:43.425 (9796.7) Prysm.AppVision.Server.ThreadCommand end thread.
+09/05/25 19:48:43.425 (9796.18) Prysm.AppVision.Server.Threads.ThreadCommandAppControl end thread.
+09/05/25 19:48:43.446 (9796.17) Prysm.AppVision.Server.ThreadMailing end thread.
+09/05/25 19:48:45.283 (9796.31) ThreadScenarios: end thread.
+09/05/25 19:48:45.534 (9796.19) au end thread.
+09/05/25 19:48:45.545 (9796.22) Prysm.AppVision.Server.Threads.ThreadDelayWS end thread.
+09/05/25 19:48:45.545 (9796.8) Controller: StopAuthentification
+09/05/25 19:48:45.611 (9796.21) Prysm.AppVision.Server.Threads.ThreadClients end thread.
+09/05/25 19:48:46.045 (9796.8) Controller: StopReason=Demo 
+09/05/25 19:48:46.045 (9796.8) Controller: ThreadProc end
+09/05/25 19:48:46.046 (9796.8) Controller: **********************************************************************
+09/05/25 19:48:46.520 (9796.1) MainWindow.Close...
+09/05/25 19:48:46.520 (9796.1) MainWindow.Window_Closing
+09/05/25 19:48:46.526 (9796.1) MainWindow.Window_Closed Demo False
+09/05/25 19:48:47.449 (9796.23) ThreadStore: end thread.
+Thread started: Log
+09/05/25 19:48:56.854 (9188.1) Controller: ===============================================================
+5/9/2025 7:48:56 PM +04:00
+appServer  v4.8.6.0
+CommandLine: "C:\Program Files\Salto Enterprise\Bin\appServer.exe" 
+CurrentDirectory: C:\Program Files\Salto Enterprise\Bin
+Process Id: 9188
+WIN-GMRTI8NMQK4\Administrator
+Microsoft Windows NT 6.2.9200.0 (en-US)
+DnsName: WIN-GMRTI8NMQK4
+IPAdrs: 10.165.1.20
+09/05/25 19:48:56.854 (9188.1) Controller: Start
+09/05/25 19:48:56.855 (9188.1) Controller: Args=C:\Program Files\Salto Enterprise\Bin\appServer.exe
+09/05/25 19:48:56.855 (9188.1) Controller: Path=C:\Program Files\Salto Enterprise\Configurations\Enterprise
+09/05/25 19:48:59.881 (9188.1) Controller: License 50-00-00-00 g:1 s:0 c:0
+09/05/25 19:48:59.881 (9188.1) Controller: Start ...
+09/05/25 19:49:01.023 (9188.1) Controller: StartThreadProc
+09/05/25 19:49:01.031 (9188.8) Controller: ThreadProc start
+09/05/25 19:49:01.032 (9188.8) Controller: Server state: Initializing 
+09/05/25 19:49:01.032 (9188.8) DA: CheckInitial ...
+09/05/25 19:49:01.495 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.AreaRow] found 0 doublons
+09/05/25 19:49:01.500 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.GroupRow] found 0 doublons
+09/05/25 19:49:01.504 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.ProtocolRow] found 0 doublons
+09/05/25 19:49:01.524 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.InstructionRow] found 0 doublons
+09/05/25 19:49:01.550 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.ProfileRow] found 0 doublons
+09/05/25 19:49:01.583 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.UserRow] found 0 doublons
+09/05/25 19:49:01.600 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.TextReportRow] found 0 doublons
+09/05/25 19:49:01.621 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.LinkRow] found 0 doublons
+09/05/25 19:49:01.637 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.HolidayRow] found 0 doublons
+09/05/25 19:49:01.654 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.FileInfoRow] found 0 doublons
+09/05/25 19:49:01.700 (9188.8) DA: CheckUniqGuids, [Prysm.AppVision.Data.VariableRow] found 0 doublons
+09/05/25 19:49:01.854 (9188.8) DA: CheckInitial end.
+09/05/25 19:49:02.370 (9188.8) Controller: Diagnostics enable
+09/05/25 19:49:02.502 (9188.8) AutoUpdate: CreateFilesList: 773 files in 0.1s
+09/05/25 19:49:02.558 (9188.8) Controller: Listening http://0.0.0.0/
+09/05/25 19:49:02.913 (9188.8) Controller: Listening http://0.0.0.0/AppVisionService.svc
+09/05/25 19:49:02.915 (9188.8) Controller: Listening http://0.0.0.0/AppVisionDataService.svc
+09/05/25 19:49:02.916 (9188.8) Controller: Listening http://0.0.0.0/AppVisionHistoDataService.svc
+09/05/25 19:49:02.918 (9188.8) Controller: Listening http://0.0.0.0/AppControlDataService.svc
+09/05/25 19:49:02.920 (9188.8) Controller: Listening http://0.0.0.0/AppVisionMapService
+09/05/25 19:49:02.935 (9188.8) Controller: Discovery service: register 10.165.1.20
+09/05/25 19:49:02.935 (9188.8) Controller: StartAuthentification: 0
+09/05/25 19:49:02.936 (9188.21) Prysm.AppVision.Server.Threads.ThreadClients start thread ...
+09/05/25 19:49:02.937 (9188.22) Prysm.AppVision.Server.Threads.ThreadDelayWS start thread ...
+09/05/25 19:49:03.939 (9188.8) Controller: Check database ...
+09/05/25 19:49:04.408 (9188.8) Controller: Load database ...
+09/05/25 19:49:04.672 (9188.8) Controller: PasswordVault: PasswordVault.key_notset
+09/05/25 19:49:04.741 (9188.8) Controller: 19 variables
+09/05/25 19:49:04.741 (9188.8) Controller: 5 alarms
+09/05/25 19:49:04.769 (9188.8) Controller: Building client project...
+09/05/25 19:49:04.769 (9188.23) ThreadStore: start thread ...
+09/05/25 19:49:11.424 (9188.8) Controller: Client project complete
+09/05/25 19:49:11.432 (9188.8) Controller: Server state: Deactivated 
+09/05/25 19:49:11.432 (9188.8) Controller: Start supervision
+09/05/25 19:49:11.432 (9188.8) Controller: Server state: Initializing 
+09/05/25 19:49:11.474 (9188.8) Controller: current alarms=3
+09/05/25 19:49:11.484 (9188.8) Controller: Load script ...
+09/05/25 19:49:11.819 (9188.8) Controller: Script Prysm.AppVision.Server.ScriptServerInternal
+09/05/25 19:49:11.819 (9188.8) Controller: Script Prysm.AppVision.Server.Maintenance
+09/05/25 19:49:11.819 (9188.8) Controller: Script Prysm.AppVision.Server.ScriptServerScriptServerGlobal
+09/05/25 19:49:11.819 (9188.8) Controller: Script Prysm.AppVision.Server.ServerHelper
+09/05/25 19:49:11.820 (9188.8) Controller: Load script end.
+09/05/25 19:49:11.820 (9188.8) Controller: Server state: Activated 
+09/05/25 19:49:11.820 (9188.8) Controller: AddEvent ServerStarting Startup SALTO Enterprise
+09/05/25 19:49:11.820 (9188.31) Prysm.AppVision.Server.ThreadCommand start thread ...
+09/05/25 19:49:11.820 (9188.33) Prysm.AppVision.Server.Threads.ThreadCommandAppControl start thread ...
+09/05/25 19:49:11.821 (9188.34) Prysm.AppVision.Server.ThreadMailing start thread ...
+09/05/25 19:49:11.821 (9188.35) au start thread ...
+09/05/25 19:49:11.821 (9188.36) ThreadScenarios: start thread ...
+09/05/25 19:49:12.828 (9188.8) Controller: AddEvent ServerStarted Started SALTO Enterprise
+09/05/25 19:49:12.830 (9188.8) Controller: StartProtocol SHIP
+09/05/25 19:49:12.830 (9188.8) Controller: AddEvent ProtocolStart Startup 
+09/05/25 19:49:12.832 (9188.8) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 19:49:12.873 (9188.8) Controller: CpuCounter=0 RamAvailable=58398
+09/05/25 19:49:13.045 (9188.20) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 19:49:13.047 (9188.20) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 19:49:13.073 (9188.16) Controller: AddEvent ProtocolLogin Login 
+09/05/25 19:49:13.126 (9188.16) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:13.128 (9188.19) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:13.168 (9188.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 19:49:13.410 (9188.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 19:49:15.029 (9188.16) Controller: CreateClient AppVision Client host=WIN-GMRTI8NMQK4 process=appclient.exe
+09/05/25 19:49:15.031 (9188.16) Controller: AddEvent ClientOpen Connection AppVision Client
+09/05/25 19:49:15.170 (9188.19) Controller: AddEvent UserLogin Login Admin
+09/05/25 19:49:15.185 (9188.19) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:15.186 (9188.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 19:49:16.588 (9188.17) Controller: CreateClient AppVision Configurator host=WIN-GMRTI8NMQK4 process=appConfig.exe
+09/05/25 19:49:16.591 (9188.17) Controller: AddEvent ClientOpen Connection AppVision Configurator
+09/05/25 19:49:16.678 (9188.19) Controller: AddEvent UserLogin Login Admin
+09/05/25 19:49:16.681 (9188.19) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:16.682 (9188.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 19:49:41.348 (9188.7) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 19:49:41.365 (9188.7) Controller: AddEvent UserLogout Logout Admin
+09/05/25 19:49:41.417 (9188.7) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appConfig.exe sid=6c0b7bd6-1c3a-4b01-b9fb-4bcf3e742401 reason=
+09/05/25 19:49:41.417 (9188.7) Controller: AddEvent ClientClose Disconnection AppVision Configurator
+09/05/25 19:49:47.649 (9188.18) Controller: CreateClient AppVision Configurator host=WIN-GMRTI8NMQK4 process=appConfig.exe
+09/05/25 19:49:47.650 (9188.18) Controller: AddEvent ClientOpen Connection AppVision Configurator
+09/05/25 19:49:47.747 (9188.16) Controller: AddEvent UserLogin Login Admin
+09/05/25 19:49:47.810 (9188.16) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:47.813 (9188.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 19:49:49.829 (9188.20) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 19:49:55.080 (9188.22) Controller: StopProtocol $P.SHIP
+09/05/25 19:49:55.080 (9188.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 19:49:55.086 (9188.20) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 19:49:55.125 (9188.20) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 19:49:55.177 (9188.20) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=eb442670-14cd-4c1a-af8d-9125a9359d83 reason=
+09/05/25 19:49:55.177 (9188.20) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 20:01:40.592 (9188.22) Controller: StartProtocol $P.SHIP
+09/05/25 20:01:40.592 (9188.22) Controller: AddEvent ProtocolStartByUser Startup 
+09/05/25 20:01:40.595 (9188.22) Controller: ExecuteProcess: C:\Program Files\Salto Enterprise\Bin\appDriverShip.exe SHIP
+09/05/25 20:01:40.794 (9188.20) Controller: CreateClient Driver SHIP Salto for AppControl host=WIN-GMRTI8NMQK4 process=appDriverShip.exe
+09/05/25 20:01:40.795 (9188.20) Controller: AddEvent ClientOpen Connection Driver SHIP Salto for AppControl
+09/05/25 20:01:40.812 (9188.25) Controller: AddEvent ProtocolLogin Login 
+09/05/25 20:01:40.860 (9188.25) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 20:01:40.860 (9188.25) Controller: AddEvent ServerInfo AddFilterNotifications 
+09/05/25 20:01:40.899 (9188.22) Controller: AddEvent ServerInfo Notification request 
+09/05/25 20:01:41.027 (9188.22) Controller: AddEvent ProtocolSynchronise Synchronized 
+09/05/25 20:03:02.816 (9188.22) Controller: StopProtocol $P.SHIP
+09/05/25 20:03:02.816 (9188.22) Controller: AddEvent ProtocolStopByUser Stop 
+09/05/25 20:03:02.823 (9188.25) Controller: AddEvent ServerInfo Stop notification 
+09/05/25 20:03:02.839 (9188.25) Controller: AddEvent ProtocolLogout Logout 
+09/05/25 20:03:02.891 (9188.25) Controller: DeleteClient host=WIN-GMRTI8NMQK4 process=appDriverShip.exe sid=6d44776d-eba6-446d-bdb8-dbef3c90125e reason=
+09/05/25 20:03:02.891 (9188.25) Controller: AddEvent ClientClose Disconnection Driver SHIP Salto for AppControl
+09/05/25 20:04:13.836 (9188.8) Controller: CpuCounter=0.008733575 RamAvailable=58485
