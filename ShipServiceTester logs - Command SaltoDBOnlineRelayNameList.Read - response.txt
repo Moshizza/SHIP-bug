@@ -1,0 +1,13 @@
+CLIENT -> SALTO (STP)
+STP/00/172/<?xml version="1.0" encoding="UTF-8"?>
+<RequestCall>
+<RequestName> SaltoDBOnlineRelayNameList.Read </RequestName>
+<Params>
+<MaxCount> 4 </MaxCount>
+</Params>
+</RequestCall>
+
+SALTO -> CLIENT (STP)
+STP/00/539/<?xml version='1.0' encoding='utf-8'?><RequestResponse><RequestName>SaltoDBOnlineRelayNameList.Read</RequestName><Params><SaltoDBOnlineRelayNameList><SaltoDBOnlineRelayName>Elevator 07-08 Lobby L6 Code Blue</SaltoDBOnlineRelayName><SaltoDBOnlineRelayName>Elevator 09-10 Lobby L6 Code Blue</SaltoDBOnlineRelayName><SaltoDBOnlineRelayName>Elevator 10 Lobby GF Code Blue</SaltoDBOnlineRelayName><SaltoDBOnlineRelayName>Elevator 10 Lobby L1 Code Blue</SaltoDBOnlineRelayName></SaltoDBOnlineRelayNameList><EOF>0</EOF></Params></RequestResponse>
+--------------------------------------------------
+

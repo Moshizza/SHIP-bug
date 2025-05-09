@@ -1,0 +1,78 @@
+Listening on tcp port 6500
+  ][
+    {
+      "EventDateTime": "2025-05-09T21:10:04",
+      "EventDateTimeUTC": "2025-05-09T17:10:04Z",
+      "EventTime": "21:10:04",
+      "EventTimeUTC": "17:10:04",
+      "OperationID": 28,
+      "OperationDescription": "Door opened (online)",
+      "IsExit": false,
+      "UserType": 2,
+      "UserName": "admin",
+      "UserExtID": "",
+      "UserGPF1": "",
+      "UserGPF2": "",
+      "UserGPF3": "",
+      "UserGPF4": "",
+      "UserGPF5": "",
+      "UserCardSerialNumber": "",
+      "UserCardID": "",
+      "DoorName": "C-G-211 JCI Office",
+      "DoorExtID": "9E49B1A52F6E14C4458008DD4CE6B30F",
+      "DoorGPF1": "GF Clinic",
+      "DoorGPF2": "GF Clinic Area K"
+    }
+Stopped listening tcp on port 6500
+Listening on tcp port 6501
+  ][
+    {
+      "EventDateTime": "2025-05-09T21:10:36",
+      "EventDateTimeUTC": "2025-05-09T17:10:36Z",
+      "EventTime": "21:10:36",
+      "EventTimeUTC": "17:10:36",
+      "OperationID": 28,
+      "OperationDescription": "Door opened (online)",
+      "IsExit": false,
+      "UserType": 2,
+      "UserName": "admin",
+      "UserExtID": "",
+      "UserGPF1": "",
+      "UserGPF2": "",
+      "UserGPF3": "",
+      "UserGPF4": "",
+      "UserGPF5": "",
+      "UserCardSerialNumber": "",
+      "UserCardID": "",
+      "DoorName": "C-G-211 JCI Office",
+      "DoorExtID": "9E49B1A52F6E14C4458008DD4CE6B30F",
+      "DoorGPF1": "GF Clinic",
+      "DoorGPF2": "GF Clinic Area K"
+    }
+Stopped listening tcp on port 6501
+Listening on tcp port 8081
+  ][
+    {
+      "EventDateTime": "2025-05-09T21:10:52",
+      "EventDateTimeUTC": "2025-05-09T17:10:52Z",
+      "EventTime": "21:10:52",
+      "EventTimeUTC": "17:10:52",
+      "OperationID": 28,
+      "OperationDescription": "Door opened (online)",
+      "IsExit": false,
+      "UserType": 2,
+      "UserName": "admin",
+      "UserExtID": "",
+      "UserGPF1": "",
+      "UserGPF2": "",
+      "UserGPF3": "",
+      "UserGPF4": "",
+      "UserGPF5": "",
+      "UserCardSerialNumber": "",
+      "UserCardID": "",
+      "DoorName": "C-G-211 JCI Office",
+      "DoorExtID": "9E49B1A52F6E14C4458008DD4CE6B30F",
+      "DoorGPF1": "GF Clinic",
+      "DoorGPF2": "GF Clinic Area K"
+    }
+Stopped listening tcp on port 8081

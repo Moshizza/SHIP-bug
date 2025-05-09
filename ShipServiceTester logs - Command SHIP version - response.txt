@@ -1,0 +1,7 @@
+CLIENT -> SALTO (STP)
+STP/00/271/<?xml version='1.0' encoding='utf-8'?><RequestResponse><RequestName>GetInfo</RequestName><Params><ProtocolID>SHIP</ProtocolID><ProtocolVersion>1.44a</ProtocolVersion><DateTime>2025-05-09T20:01:40</DateTime><DefaultLanguage>eng</DefaultLanguage></Params></RequestResponse>
+
+SALTO -> CLIENT (STP)
+STP/00/271/<?xml version='1.0' encoding='utf-8'?><RequestResponse><RequestName>GetInfo</RequestName><Params><ProtocolID>SHIP</ProtocolID><ProtocolVersion>1.44a</ProtocolVersion><DateTime>2025-05-09T20:09:09</DateTime><DefaultLanguage>eng</DefaultLanguage></Params></RequestResponse>
+--------------------------------------------------
+

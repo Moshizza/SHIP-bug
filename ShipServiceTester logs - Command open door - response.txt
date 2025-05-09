@@ -1,0 +1,7 @@
+CLIENT -> SALTO (STP)
+STP/00/210/<?xml version="1.0" encoding="UTF-8"?><RequestCall><RequestName>OnlineDoor.Open</RequestName><Params><ExtDoorIDList><ExtDoorID>9E49B1A52F6E14C4458008DD4CE6B30F</ExtDoorID></ExtDoorIDList></Params></RequestCall>
+
+SALTO -> CLIENT (STP)
+STP/00/311/<?xml version='1.0' encoding='utf-8'?><RequestResponse><RequestName>OnlineDoor.Open</RequestName><Params><OnlineDoorActionResultList><OnlineDoorActionResult><DoorID>9E49B1A52F6E14C4458008DD4CE6B30F</DoorID><ErrorCode>0</ErrorCode></OnlineDoorActionResult></OnlineDoorActionResultList></Params></RequestResponse>
+--------------------------------------------------
+
